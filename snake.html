@@ -1,34 +1,82 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <title> Snake Books </title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="snake.css">
-        <link rel="stylesheet" href="reset.css">
-    </head>
-    <body>
-        <header>
-            <input type="search" placeholder="pesquise aqui">
-            <title><p style = "font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
-                SNAKE BOOKS
-                 </p></title>
-        </header>
-        <div class="cabeçalho">
-            <center>
-            <img src="" width="100px" height="100px">
-            <h1> Livraria Snake Books </h1>
-        </center>             
-        </div>
-        <div class="conteudo">
-            <h1>
-                <p style = "font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
-                    Sobre nós
-                     </p> </h1>
-            <ol>
-                <li> Somos uma empresa on-line e presencial onde nosso foco é satisfazer os clientes com nosso IMENSO CATÁLOGO de livros.</li>
-                <li> Nosso catálogo é bem administrado para fornecer os melhores livros de cada gênero! </li>
-                <li> Está interessado em nosso catálogo? Para mais informações acesse a categoria "Catálogo" no menu </li>
-             
-            </ol>
-        </div>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="snake.css">
+    <link href="WrathStyles.ttf" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="snake.png" width="200px" height="200px">
+        <h1 class="titulo-principal">Snakes Books</h1>
+     
+    </header>
+    <h1>  <font size="30px">  Sobre nós </font> </h1>
+    <ol> 
+        <li>Nós somos uma livraria online onde focamos em agradar nossos leitores com ótimos preços e os melhores livros</li>
+        <li>Nós contamos com um grande catálogo de livros, para mais informações preencha o campo de login para ser redirecionado para nossa página principal</li>
+        <li>Sem contar que nós não cobramos frete😉</li>
+        
+    </ol>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+    <main>
+        <form>
+            <h1> <font size="30px">Login ou Sign up </font></h1>
+            <br>
+            <br>
+            <br>
+            <label for="nomesobrenome">Nome e sobrenome:</label>
+            <input type="text" name="nome" id="nomesobrenome" class="input-padrao" placeholder="Seu nome e sobrenome" required >
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" class="input-padrao" placeholder="seuemail@dominio.com" required >
+            <br>
+            <br>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone" class="input-padrao" placeholder="(XX) XXXX-XXXX" required >
+            <br>
+            <br>
+            <label for="senha">Senha:</label><input type="password" name="senha" id="senha" class="password" placeholder="digite ou crie sua senha aqui" required>
+            <br>
+            <br>
+            <section>
+
+                <p>Como prefere nosso contato?</p>
+
+                <label for="radio-email"><input type="radio" name="Contato" value="email" id="radio-email">Email</label>
+                <br>
+                <br>
+                <label for="radio-telefone"><input type="radio" name="Contato" value="telefone" id="radio-telefone">Telefone</label>
+                <br>
+                <br>
+                <label for="radio-whatsapp"><input type="radio" name="Contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+                <br>
+                <br>
+            </section>
+
+           
+            <br>
+            <br>
+            <label class="checkbox">
+            <input type="checkbox">Gostaria de receber nossas novidades por e-mail?    
+            </label>
+
+            <input type="submit" value="Enviar formulário" class="enviar">
+        </form>
+    </main>
+
+    <footer>
+        <img id="logo" src="snake.png">
+        <p class="copyright">&copy; Copyright -- SNAKE BOOKS</p>
+    </footer>
+
+</body>
+</html>  
